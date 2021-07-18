@@ -1,0 +1,86 @@
+
+/*****************************  TAG SELCTORS *************************************************************/
+body {
+  background-color: #d64161;
+}
+
+h1 {
+  color: orange;
+  font-family:'Zen Tokyo Zoo';
+  font-size: 80px;
+  text-align: center;
+  }
+
+p, h2 {
+  color: white;
+  font-family:'Yomogi';
+  text-align: center;
+      }
+
+img:hover {
+background-color: gold;
+border-radius: 50%;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+/******************************CLASS SELECTORS **********************************************************/
+
+.recipes{
+  display: block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe_1 {
+  background-color: white;
+  font-size: 20px;
+  font-family: 'Yomogi';
+  font-weight: bolder;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.fill {
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'Yomogi';
+  font-weight: bolder;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+
+.fill:hover{
+  background-color: pink;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'Yomogi';
+  font-weight: bolder;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+
+.recipe_2 {
+  color: blue;
+}
+
+.centered{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dancing_sausage {
+  border-radius: 50%;
+
+}
